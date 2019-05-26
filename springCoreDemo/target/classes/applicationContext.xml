@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Creation of bean of the Student Class -->
+	<bean class="com.dependencyInjection.Student" id="stud" autowire="byName">
+
+		<!-- To set the values using bean -->
+		<constructor-arg value="3">
+		</constructor-arg>
+		<constructor-arg value="Shreejit">
+		</constructor-arg>
+		<constructor-arg value="Bhattarai">
+		</constructor-arg>
+		<constructor-arg value="KIC">
+		</constructor-arg>
+
+	</bean>
+	
+	<bean class="com.dependencyInjection.Address" id="adr">
+		<property name="country" value="Nepal"></property>
+		<property name="city" value="Kathmandu"></property>
+		<property name="state" value="State-3"></property>
+	
+	</bean>
+	
+	<bean class="com.dependencyInjection.User" id="user">
+		<property name="id" value="654"></property>
+		<property name="name" value="Shreejit"></property>
+		<property name="password" value="hello"></property>
+		<property name="address" ref="adr"></property>
+	</bean>
+	
+
+</beans>
