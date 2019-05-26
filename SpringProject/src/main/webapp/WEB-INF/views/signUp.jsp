@@ -44,7 +44,7 @@
 
 	<div class="limiter">
 		<div class="container-login100"
-			style="background-image: url('resources/login/images/bg-01.jpg');">
+			style="background-image: url('resources/login/images/background.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<form class="login100-form validate-form flex-sb flex-w"
 					action="userSignUp" method="post">
@@ -89,12 +89,12 @@
 					</div>
 
 					<div class="container-login100-form-btn m-t-17">
-						<input type="submit" value="signUp" class="login100-form-btn">
+						<input type="submit" value="Sign Up Now" class="login100-form-btn">
 					</div>
 
 					<div class="w-full text-center p-t-55">
-						<span class="txt2"> Not a member? </span> <a href="#"
-							class="txt2 bo1"> Sign up now </a>
+						<span class="txt2"> Already got an account? </span> <a href="userLogin"
+							class="txt2 bo1"> Login now </a>
 					</div>
 				</form>
 			</div>

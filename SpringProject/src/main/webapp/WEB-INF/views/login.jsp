@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Login V5</title>
+<title>Login Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -44,7 +44,7 @@
 
 	<div class="limiter">
 		<div class="container-login100"
-			style="background-image: url('resources/login/images/bg-01.jpg');">
+			style="background-image: url('resources/login/images/background.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<form class="login100-form validate-form flex-sb flex-w"
 					action="login" method="post">
@@ -79,11 +79,11 @@
 					</div>
 
 					<div class="container-login100-form-btn m-t-17">
-						<input type="submit" value="login" class="login100-form-btn">
+						<input type="submit" value="Login" class="login100-form-btn">
 					</div>
 
 					<div class="w-full text-center p-t-55">
-						<span class="txt2"> Not a member? </span> <a href="#"
+						<span class="txt2"> Not a member? </span> <a href="userSignUp"
 							class="txt2 bo1"> Sign up now </a>
 					</div>
 				</form>
