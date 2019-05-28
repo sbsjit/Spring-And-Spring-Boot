@@ -84,7 +84,7 @@
 					</li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="userLogin">Login</a></li>
-					<li><a href="userSignUp">SignUp</a></li>
+					<li><a href="userSignUp">Sign Up</a></li>
 					<li><a href="employee">Add Employee</a></li>
 				</ul>
 				<!-- /Main navigation -->
@@ -101,8 +101,8 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">We Are Creative Agency</h1>
-							<p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+							<h1 class="white-text">Employee Management System</h1>
+							<p class="white-text">Its a project based on study purpose.
 							</p>
 							<button class="white-btn">Get Started!</button>
 							<button class="main-btn">Learn more</button>

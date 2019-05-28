@@ -52,9 +52,9 @@
 
 					<p style="color=red">${error}</p>
 
-					<a href="#" class="btn-face m-b-20"> <i
+					<a href="https://www.facebook.com/" class="btn-face m-b-20"> <i
 						class="fa fa-facebook-official"></i> Facebook
-					</a> <a href="#" class="btn-google m-b-20"> <img
+					</a> <a href="https://www.gmail.com/" class="btn-google m-b-20"> <img
 						src="resources/login/images/icons/icon-google.png" alt="GOOGLE">
 						Google
 					</a>
