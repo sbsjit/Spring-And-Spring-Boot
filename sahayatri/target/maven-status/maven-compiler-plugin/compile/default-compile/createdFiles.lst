@@ -1,0 +1,15 @@
+com\sushree\sahayatri\repository\RoleRepository.class
+com\sushree\sahayatri\repository\UserRepository.class
+com\sushree\sahayatri\model\Bid.class
+com\sushree\sahayatri\model\Package.class
+com\sushree\sahayatri\model\Role.class
+com\sushree\sahayatri\model\Group.class
+com\sushree\sahayatri\repository\DestinationRepository.class
+com\sushree\sahayatri\model\UserRole.class
+com\sushree\sahayatri\repository\BidRepository.class
+com\sushree\sahayatri\model\Destination.class
+com\sushree\sahayatri\model\UserGroup.class
+com\sushree\sahayatri\repository\PackageRepository.class
+com\sushree\sahayatri\model\User.class
+com\sushree\sahayatri\model\PackageUser.class
+com\sushree\sahayatri\model\DestinationPackage.class
