@@ -39,15 +39,6 @@ public class Bid {
 	@LastModifiedDate
 	private Date createdAt;
 
-	public Date getCreatedAt() {
-		return createdAt;
-	}
-
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
-	}
-
-	
 	public int getId() {
 		return id;
 	}
@@ -95,6 +86,14 @@ public class Bid {
 	public void setService(String service) {
 		this.service = service;
 	}
-	
+
+	public Date getCreatedAt() {
+		return createdAt;
+	}
+
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
+	}
+
 	
 }

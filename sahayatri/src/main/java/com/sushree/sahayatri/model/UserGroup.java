@@ -28,27 +28,10 @@ public class UserGroup {
 	private List<User> userList;
 	
 	@OneToOne
-	@JoinColumn(name="packageId")
-	private Package packages;
+	@JoinColumn(name="groupId")
+	private Group group;
 
 	
-
-	public List<User> getUserList() {
-		return userList;
-	}
-
-	public void setUserList(List<User> userList) {
-		this.userList = userList;
-	}
-
-	public Package getPackages() {
-		return packages;
-	}
-
-	public void setPackages(Package packages) {
-		this.packages = packages;
-	}
-
 	public int getId() {
 		return id;
 	}
@@ -57,6 +40,21 @@ public class UserGroup {
 		this.id = id;
 	}
 	
-	
+	public List<User> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(List<User> userList) {
+		this.userList = userList;
+	}
+
+	public Group getGroup() {
+		return group;
+	}
+
+	public void setGroup(Group group) {
+		this.group = group;
+	}
+
 	
 }

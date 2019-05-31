@@ -41,7 +41,6 @@
 </head>
 <body>
 
-
 	<div class="limiter">
 		<div class="container-login100"
 			style="background-image: url('resources/login/images/background.jpg');">

@@ -4,6 +4,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- //Recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <title>Login Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,8 +39,10 @@
 <link rel="stylesheet" type="text/css"
 	href="resources/login/vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="resources/login/css/util.css">
-<link rel="stylesheet" type="text/css" href="resources/login/css/main.css">
+<link rel="stylesheet" type="text/css"
+	href="resources/login/css/util.css">
+<link rel="stylesheet" type="text/css"
+	href="resources/login/css/main.css">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -50,7 +56,7 @@
 					action="login" method="post">
 					<span class="login100-form-title p-b-53"> Sign In With </span>
 
-					<p style="color=red">${error}</p>
+					
 
 					<a href="https://www.facebook.com/" class="btn-face m-b-20"> <i
 						class="fa fa-facebook-official"></i> Facebook
@@ -58,6 +64,7 @@
 						src="resources/login/images/icons/icon-google.png" alt="GOOGLE">
 						Google
 					</a>
+					<p style="">${error}</p><br><br>
 
 					<div class="p-t-31 p-b-9">
 						<span class="txt1"> Username </span>
@@ -74,9 +81,12 @@
 					</div>
 					<div class="wrap-input100 validate-input"
 						data-validate="Password is required">
-						<input class="input100" type="password" name="password">
-						<span class="focus-input100"></span>
+						<input class="input100" type="password" name="password"> <span
+							class="focus-input100"></span>
 					</div>
+					
+					
+					 <div class="g-recaptcha" data-sitekey="6Lf8gaYUAAAAAJ-3MOc2JdgDFUhQkgYkV-AxFSfs"></div>
 
 					<div class="container-login100-form-btn m-t-17">
 						<input type="submit" value="Login" class="login100-form-btn">

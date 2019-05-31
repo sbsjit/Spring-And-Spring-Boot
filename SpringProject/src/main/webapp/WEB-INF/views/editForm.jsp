@@ -36,7 +36,8 @@
 <!--===============================================================================================-->
 </head>
 <body>
-
+	<%@include file="header.jsp" %>
+	
 	<div class="bg-contact3"
 		style="background-image: url('resources/form/images/bg-01.jpg');">
 		<div class="container-contact3">

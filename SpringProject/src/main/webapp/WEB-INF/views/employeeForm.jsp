@@ -15,9 +15,6 @@
 	href="resources/form/images/icons/favicon.ico" />
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
-	href="resources/form/vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-<link rel="stylesheet" type="text/css"
 	href="resources/form/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
@@ -36,7 +33,8 @@
 <!--===============================================================================================-->
 </head>
 <body>
-
+	<%@include file="header.jsp" %>
+	
 	<div class="bg-contact3"
 		style="background-image: url('resources/form/images/bg-01.jpg');">
 		<div class="container-contact3">
