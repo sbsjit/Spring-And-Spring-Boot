@@ -3,12 +3,14 @@ package com.shreejit.springProject.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.shreejit.springProject.dao.UserDao;
 import com.shreejit.springProject.model.User;
+import com.sun.mail.smtp.DigestMD5;
 
 @Controller
 public class SignUpController {
@@ -30,6 +32,8 @@ public class SignUpController {
 		/*PrintWriter out=new PrintWriter(System.out);
 		out.println("Signed Up");*/
 		
+		//Encryption
+		u.setPassword(DigestUtils.md5DigestAsHex(u.getPassword().getBytes()));
 		uDao.userSignUp(u);
 		
 		return "login";

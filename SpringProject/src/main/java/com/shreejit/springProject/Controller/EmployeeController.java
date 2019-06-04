@@ -15,6 +15,7 @@ import com.shreejit.springProject.dao.EmployeeDao;
 import com.shreejit.springProject.model.Employee;
 
 @Controller
+
 public class EmployeeController {
 
 	@Autowired

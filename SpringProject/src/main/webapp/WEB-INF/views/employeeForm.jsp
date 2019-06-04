@@ -60,13 +60,13 @@
 					<div class="wrap-contact3-form-radio">
 						<div class="contact3-form-radio m-r-42">
 							<spring:radiobutton class="input-radio3" id="radio1"
-								path="gender" value="male" name="choice" />
+								path="gender" value="male" name="choice" checked="true"/>
 							<label class="label-radio3" for="radio1"> Male </label>
 						</div>
 
 						<div class="contact3-form-radio m-r-42">
 							<spring:radiobutton class="input-radio3" id="radio1"
-								path="gender" value="female" name="choice"  />
+								path="gender" value="female" name="choice" checked="true" />
 							<label class="label-radio3" for="radio1"> Female </label>
 						</div>
 					</div>

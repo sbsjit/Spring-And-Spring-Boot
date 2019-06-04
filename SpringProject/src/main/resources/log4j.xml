@@ -10,6 +10,17 @@
 		</layout>
 	</appender>
 	
+	
+	
+	<appender name="file" class="org.apache.log4j.RollingFileAppender">
+		<param name="file" value="F://logger/logfile.log" />
+			<param name="append" value="false" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
+		</layout>
+	</appender>
+	
+	
 	<!-- Application Loggers -->
 	<logger name="com.shreejit.springProject">
 		<level value="info" />
@@ -36,6 +47,7 @@
 	<root>
 		<priority value="warn" />
 		<appender-ref ref="console" />
+		<appender-ref ref="file" />
 	</root>
 	
 </log4j:configuration>

@@ -6,6 +6,8 @@
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
 
+
+
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/css/dataTables.bootstrap.css">
 
@@ -17,7 +19,7 @@
 			<nav class="navbar navbar-default navbar-static-top">
 				<div class="container">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#">Employee Management System</a>
+						<a class="navbar-brand" }/home">Employee Management System</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
@@ -28,7 +30,7 @@
 							<li><a href="${pageContext.request.contextPath}/email">Contact</a></li>
 							<li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
 							<li><a href="${pageContext.request.contextPath}/employee">Add Employee</a></li>
-							<li><a href="#">Profile</a></li>
+							<li><a href="${pageContext.request.contextPath}/profile">Profile</a></li>
 							<li class="active"><a
 								href="${pageContext.request.contextPath}/logout">Logout<span
 									class="sr-only">(current)</span></a></li>

@@ -5,8 +5,12 @@
 <html lang="en">
 <head>
 
-<!-- //Recaptcha -->
+<!-- Recaptcha -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<!-- Google api -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="979773237172-vikerglhrku9h7co38v1tqsq326o4k1o.apps.googleusercontent.com">
 
 <title>Login Page</title>
 <meta charset="UTF-8">
@@ -58,9 +62,9 @@
 
 					
 
-					<a href="https://www.facebook.com/" class="btn-face m-b-20"> <i
+					<a href="facebook" class="btn-face m-b-20"> <i
 						class="fa fa-facebook-official"></i> Facebook
-					</a> <a href="https://www.gmail.com/" class="btn-google m-b-20"> <img
+					</a> <a href="gmail" class="btn-google m-b-20"> <img
 						src="resources/login/images/icons/icon-google.png" alt="GOOGLE">
 						Google
 					</a>
@@ -103,6 +107,9 @@
 
 
 	<div id="dropDownSelect1"></div>
+
+	
+
 
 	<!--===============================================================================================-->
 	<script src="resources/login/vendor/jquery/jquery-3.2.1.min.js"></script>
